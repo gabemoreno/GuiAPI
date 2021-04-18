@@ -11,6 +11,5 @@ public class GuiAPIMain extends JavaPlugin {
 	public void onEnable() {
 		Bukkit.getPluginManager().registerEvents(new InventoryListener(), this);
 		Bukkit.getPluginManager().registerEvents(new DecideConfirmListener(), this);
-
 	}	
 }
