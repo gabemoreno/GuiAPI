@@ -11,6 +11,7 @@ import org.bukkit.inventory.meta.ItemMeta;
 import net.md_5.bungee.api.ChatColor;
 
 public class GeneralUtil {
+	
 	public static ItemStack makeItem(Material mat, int amount, String displayName, String... lore) {
 		ItemStack item = new ItemStack(mat, amount);
 		ItemMeta meta = item.getItemMeta();

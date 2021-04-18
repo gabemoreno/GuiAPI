@@ -22,7 +22,6 @@ public abstract class Menu implements InventoryHolder {
 	private final String title;
 		
 	public Menu(Player player, int rows, String title) {
-		
 		viewers.add(player);
 		
 		this.player = player;
