@@ -8,10 +8,10 @@ import org.bukkit.event.inventory.InventoryCloseEvent;
 import org.bukkit.event.player.PlayerInteractEvent;
 import org.bukkit.inventory.InventoryHolder;
 
-import me.tx.guiapi.Interfaces.MiddleClickable;
-import me.tx.guiapi.Interfaces.ShiftClickable;
-import me.tx.guiapi.api.abstracts.Menu;
-import me.tx.guiapi.api.abstracts.TestGUI;
+import me.tx.guiapi.api.interfaces.MiddleClickable;
+import me.tx.guiapi.api.interfaces.ShiftClickable;
+import me.tx.guiapi.api.menus.Menu;
+import me.tx.guiapi.api.menus.TestGUI;
 
 
 public class InventoryListener implements Listener {

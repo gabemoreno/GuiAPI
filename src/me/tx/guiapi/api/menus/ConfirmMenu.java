@@ -1,4 +1,4 @@
-package me.tx.guiapi.api.abstracts;
+package me.tx.guiapi.api.menus;
 
 import java.util.stream.IntStream;
 
@@ -9,7 +9,7 @@ import org.bukkit.inventory.Inventory;
 import org.bukkit.inventory.ItemStack;
 
 import me.tx.guiapi.api.events.DecideConfirmEvent;
-import me.tx.guiapi.api.util.ItemUtil;
+import me.tx.guiapi.api.util.GeneralUtil;
 
 
 public class ConfirmMenu extends Menu {
@@ -25,10 +25,10 @@ public class ConfirmMenu extends Menu {
 	private final Menu parentMenu;
 
 	private final Inventory inventory = getInventory();
-	private final ItemStack filler = ItemUtil.makeItem(Material.BLACK_STAINED_GLASS_PANE, 1, "");
-	private final ItemStack confirmItem = ItemUtil.makeItem(Material.LIME_STAINED_GLASS_PANE, 1, "&a&lConfirm");
+	private final ItemStack filler = GeneralUtil.makeItem(Material.BLACK_STAINED_GLASS_PANE, 1, "");
+	private final ItemStack confirmItem = GeneralUtil.makeItem(Material.LIME_STAINED_GLASS_PANE, 1, "&a&lConfirm");
 	private final int confirmSlot = 11;
-	private final ItemStack denyItem = ItemUtil.makeItem(Material.RED_STAINED_GLASS_PANE, 1, "&4&lDeny");
+	private final ItemStack denyItem = GeneralUtil.makeItem(Material.RED_STAINED_GLASS_PANE, 1, "&4&lDeny");
 	private final int denySlot = 15;
 	private final int parentSlot;
 	

@@ -4,8 +4,8 @@ import org.bukkit.Bukkit;
 import org.bukkit.event.EventHandler;
 import org.bukkit.event.Listener;
 
-import me.tx.guiapi.Interfaces.Confirmable;
 import me.tx.guiapi.api.events.DecideConfirmEvent;
+import me.tx.guiapi.api.interfaces.Confirmable;
 import net.md_5.bungee.api.ChatColor;
 
 public class DecideConfirmListener implements Listener {

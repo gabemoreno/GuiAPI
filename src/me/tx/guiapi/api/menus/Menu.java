@@ -1,4 +1,4 @@
-package me.tx.guiapi.api.abstracts;
+package me.tx.guiapi.api.menus;
 
 import java.util.ArrayList;
 import java.util.Arrays;

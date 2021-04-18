@@ -4,8 +4,8 @@ import org.bukkit.entity.Player;
 import org.bukkit.event.Event;
 import org.bukkit.event.HandlerList;
 
-import me.tx.guiapi.api.abstracts.ConfirmMenu;
-import me.tx.guiapi.api.abstracts.Menu;
+import me.tx.guiapi.api.menus.ConfirmMenu;
+import me.tx.guiapi.api.menus.Menu;
 
 public class DecideConfirmEvent extends Event {
 

@@ -10,7 +10,7 @@ import org.bukkit.inventory.meta.ItemMeta;
 
 import net.md_5.bungee.api.ChatColor;
 
-public class ItemUtil {
+public class GeneralUtil {
 	public static ItemStack makeItem(Material mat, int amount, String displayName, String... lore) {
 		ItemStack item = new ItemStack(mat, amount);
 		ItemMeta meta = item.getItemMeta();
@@ -25,6 +25,6 @@ public class ItemUtil {
     }
     
 	public static List<String> toColor(List<String> str) {
-		return str.stream().map(ItemUtil::toColor).collect(Collectors.toList());
+		return str.stream().map(GeneralUtil::toColor).collect(Collectors.toList());
 	}
 }

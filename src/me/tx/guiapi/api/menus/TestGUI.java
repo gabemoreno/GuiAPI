@@ -1,4 +1,4 @@
-package me.tx.guiapi.api.abstracts;
+package me.tx.guiapi.api.menus;
 
 import java.util.stream.IntStream;
 
@@ -8,9 +8,9 @@ import org.bukkit.entity.Player;
 import org.bukkit.event.inventory.InventoryClickEvent;
 import org.bukkit.inventory.ItemStack;
 
-import me.tx.guiapi.Interfaces.Confirmable;
 import me.tx.guiapi.api.events.DecideConfirmEvent;
-import me.tx.guiapi.api.util.ItemUtil;
+import me.tx.guiapi.api.interfaces.Confirmable;
+import me.tx.guiapi.api.util.GeneralUtil;
 import net.md_5.bungee.api.ChatColor;
 
 public class TestGUI extends Menu implements Confirmable {
@@ -21,7 +21,7 @@ public class TestGUI extends Menu implements Confirmable {
 		open();
 	}
 	
-	private final ItemStack filler = ItemUtil.makeItem(Material.BLACK_STAINED_GLASS_PANE, 1, "");
+	private final ItemStack filler = GeneralUtil.makeItem(Material.BLACK_STAINED_GLASS_PANE, 1, "");
 	private final int slot1 = 1;
 	private final int slot2 = 3;
 

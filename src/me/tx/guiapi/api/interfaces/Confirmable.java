@@ -1,4 +1,4 @@
-package me.tx.guiapi.Interfaces;
+package me.tx.guiapi.api.interfaces;
 
 import org.bukkit.inventory.ItemStack;
 
