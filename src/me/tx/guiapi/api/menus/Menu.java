@@ -80,11 +80,6 @@ public abstract class Menu implements InventoryHolder {
 	//run in InventoryClickEvent listener
 	public abstract void onClick(InventoryClickEvent event);
 	
-	public void openConfirmMenu(String title, ItemStack item, int slot) {
-		close();
-		new ConfirmMenu(this, title, item, slot);
-	}
-	
 	public void close() {
 		viewers.remove(player);
 		player.closeInventory();

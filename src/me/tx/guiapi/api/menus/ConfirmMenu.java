@@ -18,6 +18,7 @@ public class ConfirmMenu extends Menu {
 		super(menu.getPlayer(), 3, title);
 		this.parentMenu = menu;
 		this.parentSlot = parentSlot;
+		menu.close();
 		build();
 		open();
 	}

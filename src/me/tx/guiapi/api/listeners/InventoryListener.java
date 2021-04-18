@@ -5,13 +5,11 @@ import org.bukkit.event.Listener;
 import org.bukkit.event.inventory.ClickType;
 import org.bukkit.event.inventory.InventoryClickEvent;
 import org.bukkit.event.inventory.InventoryCloseEvent;
-import org.bukkit.event.player.PlayerInteractEvent;
 import org.bukkit.inventory.InventoryHolder;
 
 import me.tx.guiapi.api.interfaces.MiddleClickable;
 import me.tx.guiapi.api.interfaces.ShiftClickable;
 import me.tx.guiapi.api.menus.Menu;
-import me.tx.guiapi.api.menus.TestGUI;
 
 
 public class InventoryListener implements Listener {
@@ -23,11 +21,6 @@ public class InventoryListener implements Listener {
 			return;
 		}
 		((Menu) holder).onClose(event);
-	}
-	
-	@EventHandler
-	public void onPunch(PlayerInteractEvent event) {
-		new TestGUI(event.getPlayer());
 	}
 	
 	@EventHandler
