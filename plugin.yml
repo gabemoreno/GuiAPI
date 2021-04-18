@@ -1,5 +1,5 @@
 name: GuiAPI
-main: me.tx.guiapi.GuiAPI_Main
+main: me.tx.guiapi.GuiAPIMain
 version: 1.0
 authors: [Gerpaderp, Jereds]
 api-version: 1.16
