@@ -11,7 +11,7 @@ import org.bukkit.inventory.ItemStack;
 import me.tx.guiapi.api.events.DecideConfirmEvent;
 import me.tx.guiapi.api.util.GeneralUtil;
 
-public class ConfirmMenu extends Menu {
+public final class ConfirmMenu extends Menu {
 
 	public ConfirmMenu(Menu menu, String title, ItemStack item, int parentSlot) {
 		super(menu.getPlayer(), 3, title);
