@@ -6,6 +6,10 @@
 			<attribute name="module" value="true"/>
 		</attributes>
 	</classpathentry>
-	<classpathentry kind="lib" path="C:/Jars/patched_1.16.5.jar"/>
+	<classpathentry kind="lib" path="C:/Jars/patched_1.16.5.jar">
+		<attributes>
+			<attribute name="javadoc_location" value="https://papermc.io/javadocs/paper/1.16/"/>
+		</attributes>
+	</classpathentry>
 	<classpathentry kind="output" path="bin"/>
 </classpath>
