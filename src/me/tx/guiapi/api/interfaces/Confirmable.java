@@ -9,4 +9,5 @@ public interface Confirmable {
 	public abstract void onDecideConfirm(DecideConfirmEvent decideEvent);
 	
 	public abstract void openConfirmMenu(String title, ItemStack item, int slot);
+	
 }
